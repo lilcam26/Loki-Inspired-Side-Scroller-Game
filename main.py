@@ -23,9 +23,9 @@ pygame.font.init()
 pygame.init()
 ##mySQL DB
 db = mysql.connector.connect(
-    host="", #hiding the host name
+    host="", #hiding the host name on this repo
     user = "root",
-    passwd = "", #hiding the passwd
+    passwd = "", #hiding the passwd on this repo
     database = "lokinew"
 )
 execute = db.cursor()
